@@ -29,7 +29,8 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "node-db-query": ">= 0.1"
+    "db-pool": ">= 0.1",
+    "db-query": ">= 0.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
