@@ -1,0 +1,41 @@
+{
+  "name": "postgres-insights",
+  "description": "Get an overview of a Postgres database",
+  "version": "0.1.0",
+  "homepage": "https://github.com/markselby/node-postgres-insights",
+  "author": {
+    "name": "Mark Selby",
+    "email": "mark@writebox.co.uk",
+    "url": "writebox.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markselby/node-postgres-insights.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markselby/node-postgres-insights/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/markselby/node-postgres-insights/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/postgres-insights",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "node-db-query": ">= 0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
