@@ -29,8 +29,8 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "db-pool": ">= 0.1",
-    "db-query": ">= 0.1"
+    "db-pool": "https://github.com/markselby/node-db-pool/tarball/master",
+    "db-query": "https://github.com/markselby/node-db-query/tarball/master"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
